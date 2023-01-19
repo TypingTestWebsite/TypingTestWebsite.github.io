@@ -1,0 +1,11 @@
+Tools
+
+Frontend:
+1. ReactJS
+2. CSS
+
+Grabbing Random Words:
+
+Words will be retrived before typing test starts.
+1. Random Words API
+  - http://random-word-api.herokuapp.com/home

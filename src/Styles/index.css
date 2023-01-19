@@ -1,0 +1,85 @@
+:root {
+    --background-colour:#5cdb95;
+
+    --water-mark-colour:#05386b;
+    --water-mark-font-size: 25px;
+
+    --typing-text-colour:#edf5e1;
+    --typed-text-colour:#a4ffbb;
+    --typing-text-font-size: 30px;
+
+    --score-tracker-text-colour:#05386b;
+    --score-tracker-text-font-size: 30px;
+
+    --font-weight: 780;
+}
+
+body {
+    font-family: ‘League_Spartan’, sans-serif;
+    font-weight: var(--font-weight);
+
+    overflow: hidden;
+}
+
+#mountains {
+    position: absolute;
+    right:0px;
+    top:-5px;
+
+    height: 120%;
+    
+    min-height: 500px
+}
+
+#content {
+    background-color: var(--background-colour);
+
+    position: absolute;
+
+    left:0px;
+    top: 0px;
+
+    width: 70%;
+    height:100%;
+
+    min-width: 500px;
+    min-height: 500px;
+}
+
+#water-mark-text {
+    color: var(--water-mark-colour);
+    font-size: var(--water-mark-font-size);
+}
+#water-mark-div {
+    position: static;
+    top: 5px;
+    left: 5px;
+
+    width: 20px;
+    height: fit-content;
+}
+
+#typing-text {
+    color: var(--typing-text-colour);
+    font-size: var(--typing-text-font-size);
+
+    line-height:30px;
+}
+#typed-text {
+    color: var(--typed-text-colour);
+    font-size: var(--typing-text-font-size);
+
+    line-height: 30px;
+}
+#score-tracker-text {
+    color: var(--score-tracker-text-colour);
+    font-size: var(--score-tracker-text-font-size);
+}
+#main-content-div {
+    position: static;
+    margin: auto;
+
+    width: 66%;
+    max-width: 700px;
+    min-width: 400px;
+}
